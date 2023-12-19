@@ -1,0 +1,38 @@
+.top_header {
+  @apply bg-[#fff] border-b border-[#EFEFEF] relative top-0 left-0;
+}
+.top_header .container {
+  @apply flex justify-between items-center p-5 max-w-[1200px] mx-auto;
+}
+
+.top_header .logo {
+  @apply text-[#3D00B7] text-2xl not-italic font-bold leading-[normal];
+}
+
+.top_header .nav {
+  @apply hidden lg:flex gap-8 items-center h-full;
+}
+.top_header .nav .navbar {
+  @apply text-lg font-medium flex gap-8 items-center h-full;
+}
+.top_header .nav .navbar .nav_item {
+  @apply text-black text-base md:text-sm xl:text-base not-italic font-medium leading-[normal] tracking-[0.64px];
+}
+.top_header .hamburger {
+  @apply block lg:hidden;
+}
+.top_header .search_btn {
+  @apply flex gap-5 items-center;
+}
+
+.top_header .mobile_nav {
+  @apply absolute top-[110%] right-5 bg-[#fff] border-b border-[#EFEFEF] p-5 flex flex-col shadow-[0_3px_20px_-15px_#3D00B7] gap-8 rounded;
+}
+
+.top_header .mobile_nav .navbar {
+  @apply text-lg font-medium flex items-start flex-col gap-2;
+}
+
+.top_header .mobile_nav .search_btn {
+  @apply flex flex-col gap-5 items-start;
+}
