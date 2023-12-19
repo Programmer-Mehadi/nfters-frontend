@@ -1,0 +1,12 @@
+.collectionFeatured {
+  @apply bg-[#d9e0ec33] py-11;
+}
+.container {
+  @apply max-w-[1200px] p-5 mx-auto;
+}
+.title {
+  @apply text-black text-2xl md:text-[28px] not-italic font-bold leading-[normal] uppercase;
+}
+.collection__featured_list {
+  @apply grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 gap-y-16 mt-10;
+}
