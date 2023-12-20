@@ -1,0 +1,33 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "All Categories"
+    },
+    {
+      "id": 2,
+      "name": "Art"
+    },
+    {
+      "id": 3,
+      "name": "Celebrities"
+    },
+
+    {
+      "id": 4,
+      "name": "Gaming"
+    },
+    {
+      "id": 5,
+      "name": "Sports"
+    },
+    {
+      "id": 6,
+      "name": "Music"
+    },
+    {
+      "id": 7,
+      "name": "Crypto"
+    }
+  ]
+}

@@ -1,0 +1,260 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "ArtCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/1.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 2
+    },
+    {
+      "id": 2,
+      "name": "This NFT",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/2.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 4
+    },
+    {
+      "id": 3,
+      "name": "NameCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/3.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 3
+    },
+    {
+      "id": 4,
+      "name": "KingCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/4.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 4
+    },
+    {
+      "id": 5,
+      "name": "ArtCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/5.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 5
+    },
+    {
+      "id": 6,
+      "name": "This NFT",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/6.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 6
+    },
+    {
+      "id": 7,
+      "name": "NameCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/7.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 7
+    },
+    {
+      "id": 8,
+      "name": "ArtCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/8.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 7
+    },
+    {
+      "id": 9,
+      "name": "ArtCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/9.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 4
+    },
+    {
+      "id": 10,
+      "name": "KingCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/10.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 5
+    },
+    {
+      "id": 11,
+      "name": "NameCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/11.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 3
+    },
+    {
+      "id": 12,
+      "name": "This NFT",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/12.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 7
+    },
+    {
+      "id": 13,
+      "name": "ArtCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/13.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 4
+    },
+    {
+      "id": 14,
+      "name": "ArtCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/14.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 6
+    },
+    {
+      "id": 15,
+      "name": "NameCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/15.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 3
+    },
+    {
+      "id": 16,
+      "name": "KingCrypto",
+      "eth": 0.5,
+      "image": "../../assets/images/discover_more/16.png",
+      "users": [
+        "../../assets/images/discover_more/user-1.png",
+        "../../assets/images/discover_more/user-2.png",
+        "../../assets/images/discover_more/user-3.png",
+        "../../assets/images/discover_more/user-4.png"
+      ],
+      "timeLeft": "1h 30m 30s",
+      "select": 5,
+      "maxSelect": 321,
+      "categoryId": 5
+    }
+  ]
+}

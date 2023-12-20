@@ -3,6 +3,7 @@ import Header from "@/components/common/Header"
 import React from "react"
 import CollectionFeatured from "./Sections/CollectionFeatured/CollectionFeatured"
 import CreateAndSell from "./Sections/CreateAndSell/CreateAndSell"
+import DiscoverMoreNFTs from "./Sections/DiscoverMoreNFTs/DiscoverMoreNFTs"
 
 export default function HomePage() {
   return (
@@ -10,6 +11,7 @@ export default function HomePage() {
       <Header />
       <CollectionFeatured />
       <CreateAndSell />
+      <DiscoverMoreNFTs />
       <Footer />
     </section>
   )
