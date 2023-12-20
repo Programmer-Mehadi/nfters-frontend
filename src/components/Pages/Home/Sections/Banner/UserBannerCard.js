@@ -10,7 +10,7 @@ export default function UserBannerCard({ item }) {
         height: "100%",
         backgroundSize: "100% 100%",
       }}
-      className="p-6 flex flex-col justify-between relative rounded-3xl overflow-hidden min-h-[380px]"
+      className="p-6 h-full flex flex-col justify-between relative rounded-3xl overflow-hidden min-h-[380px]"
     >
       <div className="relative z-10">
         <h2 className="text-white text-[28px] not-italic font-bold leading-[normal] tracking-[-1.4px]">

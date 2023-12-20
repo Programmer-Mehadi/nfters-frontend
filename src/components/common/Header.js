@@ -21,15 +21,18 @@ export default function Header() {
           {/* search and btn here */}
           <div className="search_btn">
             <TextInputWithSearch />
-            <LinkButton text="Upload" />
+            <LinkButton
+              text="Upload"
+              className="bg-white text-[#3D00B7] hover:bg-[#3D00B7] hover:text-[#fff]"
+            />
             <LinkButton
               text="Connect Wallet"
-              className="bg-[#fff] text-[#3D00B7]"
+              className="bg-white text-[#3D00B7] hover:bg-[#3D00B7] hover:text-[#fff]"
             />
           </div>
         </div>
         {isOpen && (
-          <div className="mobile_nav">
+          <div className="mobile_nav max-w-[300px] overflow-auto">
             {/* navbar will be here */}
             <ul className="navbar">
               <li className="nav_item">Marketplace</li>

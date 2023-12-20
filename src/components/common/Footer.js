@@ -35,6 +35,7 @@ export default function Footer() {
                 height="36"
                 viewBox="0 0 36 36"
                 fill="none"
+                className="w-10 h-10 cursor-pointer"
               >
                 <g clip-path="url(#clip0_0_413)">
                   <path
@@ -58,6 +59,7 @@ export default function Footer() {
                 height="36"
                 viewBox="0 0 36 36"
                 fill="none"
+                className="w-10 h-10 cursor-pointer"
               >
                 <g clip-path="url(#clip0_0_417)">
                   <path
@@ -81,6 +83,7 @@ export default function Footer() {
                 height="36"
                 viewBox="0 0 36 36"
                 fill="none"
+                className="w-10 h-10 cursor-pointer"
               >
                 <g clip-path="url(#clip0_0_422)">
                   <path
@@ -151,7 +154,7 @@ export default function Footer() {
                 <Button
                   onClickFnc={subScribeNow}
                   text="Subscribe Now"
-                  className="bg-[#2639ED] border-[#2639ED] absolute top-[6px] right-2 py-3 xl:py-3 xl:px-6"
+                  className="bg-[#2639ED] border-[#2639ED] hover:bg-white hover:text-[#2639ED] absolute top-[6px] right-2 py-3 xl:py-3 xl:px-6"
                 />
               </div>
             </div>

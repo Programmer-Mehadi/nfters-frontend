@@ -35,7 +35,7 @@ export default function DiscoverMoreNFTs() {
                 className={`${
                   activeCategories === item.id
                     ? "bg-[#3D00B7] text-white"
-                    : "bg-[#DCDCDC33]  text-black hover:bg-[#3D00B720] hover:text-black transition-all"
+                    : "bg-[#DCDCDC50]  text-black hover:bg-[#3D00B720] hover:text-black transition-all"
                 } rounded-[100px] text-sm not-italic font-medium leading-[17.452px] py-[10px] px-5 cursor-pointer min-w-fit`}
               >
                 {item.name}
@@ -79,7 +79,7 @@ export default function DiscoverMoreNFTs() {
         <div className="flex justify-center mt-10">
           <LinkButton
             text="More NFTs"
-            className="bg-[#fff] text-[#3D00B7] w-fit"
+            className="bg-white text-[#3D00B7] hover:bg-[#3D00B7] hover:text-[#fff] transition-all w-fit"
           />
         </div>
       </div>

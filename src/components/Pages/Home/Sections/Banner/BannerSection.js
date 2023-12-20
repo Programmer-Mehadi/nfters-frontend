@@ -12,7 +12,7 @@ export default function BannerSection() {
     <section className="bg-white">
       <div className="max-w-[1200px] mx-auto p-5 py-16 grid lg:grid-cols-2 gap-16">
         {/* left */}
-        <div>
+        <div className="py-8">
           <h2 className="text-black text-[40px] not-italic font-extrabold uppercase leading-[normal] tracking-[2px]">
             Discover, and collect <br /> Digital Art NFTs{" "}
           </h2>
@@ -20,7 +20,10 @@ export default function BannerSection() {
             Digital marketplace for crypto collectibles and non-fungible tokens
             (NFTs). Buy, Sell, and discover exclusive digital assets.
           </p>
-          <LinkButton text="Explore Now" className="mt-10 xl:py-3" />
+          <LinkButton
+            text="Explore Now"
+            className="mt-10 xl:py-3 hover:bg-white hover:text-[#3D00B7] bg-[#3D00B7] text-[#fff] transition-all"
+          />
           <div className="mt-8 flex flex-wrap gap-5">
             <div className="grid gap-0">
               <h2 className="text-black text-[40px] not-italic font-bold leading-[normal] tracking-[2px]">
@@ -50,22 +53,22 @@ export default function BannerSection() {
         </div>
         {/* right */}
         <div className="h-full ">
-          <div className="relative w-[98%] max-w-[450px] mx-auto">
+          <div className="h-full relative w-[98%] max-w-[400px] mx-auto">
             <Swiper
               effect={"cards"}
               grabCursor={true}
               modules={[EffectCards]}
-              className="mySwiper h-full max-w-[250px] sm:max-w-[300px] ml-5 mobile-sm-md:max-w-[350px] md:max-w-[400px]"
+              className="mySwiper h-full max-w-[250px] sm:max-w-[300px] ml-5 mobile-sm-md:max-w-[280px] md:max-w-[400px]"
             >
               {bannerCardData?.data?.map((item, index) => (
-                <SwiperSlide key={index}>
+                <SwiperSlide key={index} className="h-full">
                   <UserBannerCard item={item} />
                 </SwiperSlide>
               ))}
             </Swiper>
             <img
               src="./assets/images/banner_card/tag.png"
-              className="absolute bottom-20 w-20 md:w-[120px] z-20 -left-[22px] md:-left-[40px]"
+              className="absolute bottom-24 hidden mobile-sm-md:block md:block mobile-sm-md:w-[120px] w-[120px] md:w-[120px] z-20 -left-[35px] sm:-left-[12px] md:-left-[60px]"
               alt=""
             />
           </div>

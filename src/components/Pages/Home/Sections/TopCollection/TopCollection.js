@@ -130,10 +130,10 @@ export default function TopCollection() {
           <p className="text-[#3D00B7] text-lg not-italic font-bold leading-[normal] pt-2">
             Last 7 days
           </p>
-          <div className="mt-10">
+          <div className="mt-3">
             {topCollectionsOverList?.data?.map((item, index) => (
               <div
-                className="flex justify-between items-center gap-5 py-4"
+                className="flex justify-between items-center gap-5 py-4 border-b border-[#F0F0F0]"
                 key={index}
               >
                 <p className="text-black text-center text-2xl not-italic font-bold leading-[103%] tracking-[-0.6px]">

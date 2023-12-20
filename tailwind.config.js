@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        "mobile-sm-md": { min: "400px", max: "768px" },
+        "mobile-sm-md": { min: "400px", max: "730px" },
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

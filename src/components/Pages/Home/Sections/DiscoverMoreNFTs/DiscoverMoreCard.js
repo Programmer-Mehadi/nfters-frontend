@@ -63,7 +63,7 @@ export default function DiscoverMoreCard({ item }) {
           <span className="text-[#5539A8] text-right text-[12px] not-italic font-bold leading-[19.146px] rounded-[110px] bg-[#F5F5F5] py-[6px] px-5">
             {item.timeLeft}
           </span>
-          <span className="text-[#4F33A3] text-[15.359px] not-italic font-medium leading-[normal] cursor-pointer hover:underline">
+          <span className="text-[#4F33A3] hover:font-bold text-[15.359px] not-italic font-medium leading-[normal] cursor-pointer hover:underline">
             Place a bid
           </span>
         </div>

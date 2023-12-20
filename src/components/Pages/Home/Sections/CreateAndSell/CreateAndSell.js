@@ -16,7 +16,7 @@ export default function CreateAndSell() {
                   alt=""
                 />
                 <img
-                  className="absolute -bottom-8 -right-8"
+                  className="absolute -bottom-6 md:-bottom-8 -right-6 w-[60px] h-[60px] md:w-[80px] md:h-[80px]"
                   src={"./assets/images/create_and_sell/user-1.png"}
                   alt=""
                 />
@@ -30,7 +30,7 @@ export default function CreateAndSell() {
                   alt=""
                 />
                 <img
-                  className="absolute -bottom-8 -right-8"
+                  className="absolute -bottom-6 md:-bottom-8 -right-6 w-[50px] h-[50px] md:w-[70px] md:h-[70px]"
                   src={"./assets/images/create_and_sell/user-2.png"}
                   alt=""
                 />
@@ -45,7 +45,7 @@ export default function CreateAndSell() {
                 alt=""
               />
               <img
-                className="absolute -bottom-8 right-0"
+                className="absolute -bottom-6 md:-bottom-8 -right-3 w-[50px] h-[50px] md:w-[70px] md:h-[70px]"
                 src={"./assets/images/create_and_sell/user-2.png"}
                 alt=""
               />
@@ -64,7 +64,7 @@ export default function CreateAndSell() {
           </p>
           <LinkButton
             text="Sign Up Now"
-            className="py-[20px] px-[40px] w-fit"
+            className="py-[20px] px-[40px] w-fit hover:bg-white hover:text-[#3D00B7] bg-[#3D00B7] text-[#fff] transition-all"
           />
         </div>
       </div>
