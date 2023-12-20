@@ -1,0 +1,43 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "../../assets/images/banner_card/1.png",
+      "name": "CryptoFunks",
+      "user": {
+        "id": 1,
+        "name": "John Doe",
+        "image": "../../assets/images/banner_card/user-1.png"
+      },
+      "eth": 0.5,
+      "endsIn": "12h  43m  42s",
+      "showTag": true
+    },
+    {
+      "id": 2,
+      "image": "../../assets/images/banner_card/2.png",
+      "name": "CryptoFunks",
+      "user": {
+        "id": 1,
+        "name": "John Doe",
+        "image": "../../assets/images/banner_card/user-2.png"
+      },
+      "eth": 0.5,
+      "endsIn": "12h  43m  42s",
+      "showTag": false
+    },
+    {
+      "id": 3,
+      "image": "../../assets/images/banner_card/3.png",
+      "name": "CryptoFunks",
+      "user": {
+        "id": 1,
+        "name": "John Doe",
+        "image": "../../assets/images/banner_card/user-2.png"
+      },
+      "eth": 0.5,
+      "endsIn": "12h  43m  42s",
+      "showTag": true
+    }
+  ]
+}

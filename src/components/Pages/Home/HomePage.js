@@ -6,11 +6,13 @@ import CreateAndSell from "./Sections/CreateAndSell/CreateAndSell"
 import DiscoverMoreNFTs from "./Sections/DiscoverMoreNFTs/DiscoverMoreNFTs"
 import TheAmazingArt from "./Sections/TheAmazingArt/TheAmazingArt"
 import TopCollection from "./Sections/TopCollection/TopCollection"
+import BannerSection from "./Sections/Banner/BannerSection"
 
 export default function HomePage() {
   return (
     <section>
       <Header />
+      <BannerSection />
       <TheAmazingArt />
       <TopCollection />
       <CollectionFeatured />
