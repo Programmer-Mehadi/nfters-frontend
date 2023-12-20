@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header className="top_header">
       <div className="container">
-        <h1 className="logo">Header</h1>
+        <h1 className="logo">NFters</h1>
         <div className="nav">
           {/* navbar will be here */}
           <ul className="navbar">

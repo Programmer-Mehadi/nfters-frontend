@@ -66,7 +66,7 @@ export default function UserBannerCard({ item }) {
           </p>
         </div>
       </div>
-      <div className="absolute top-0 left-0 w-full h-full bg-slate-800 opacity-30"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-slate-800 opacity-20"></div>
     </div>
   )
 }

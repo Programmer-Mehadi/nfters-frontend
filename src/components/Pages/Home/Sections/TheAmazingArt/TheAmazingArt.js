@@ -4,8 +4,8 @@ export default function TheAmazingArt() {
   return (
     <section className="bg-[#D9E0EC33]">
       <div className="max-w-[1200px] mx-auto p-5 py-20 grid grid-cols-1 lg:grid-cols-[3fr_7fr] gap-10 ">
-        <h2 className="text-black text-[28px] not-italic font-bold leading-[normal] uppercase">
-          The amazing NFT art <br /> of the world here
+        <h2 className="text-black text-[28px] not-italic font-bold leading-[normal] uppercase max-w-[350px]">
+          The amazing NFT art of the world here
         </h2>
         <div className="grid md:grid-cols-2 gap-10">
           <div className="grid grid-cols-[50px_1fr]">

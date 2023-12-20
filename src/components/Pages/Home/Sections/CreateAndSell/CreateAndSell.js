@@ -45,7 +45,7 @@ export default function CreateAndSell() {
                 alt=""
               />
               <img
-                className="absolute -bottom-6 md:-bottom-8 -right-3 w-[50px] h-[50px] md:w-[70px] md:h-[70px]"
+                className="absolute -bottom-6 md:-bottom-8 -right-3 md:-right-0 w-[50px] h-[50px] md:w-[70px] md:h-[70px]"
                 src={"./assets/images/create_and_sell/user-2.png"}
                 alt=""
               />

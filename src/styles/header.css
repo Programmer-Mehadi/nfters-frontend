@@ -6,7 +6,7 @@
 }
 
 .top_header .logo {
-  @apply text-[#3D00B7] text-2xl not-italic font-bold leading-[normal];
+  @apply text-[#3D00B7] text-2xl not-italic font-extrabold leading-[normal] uppercase;
 }
 
 .top_header .nav {
