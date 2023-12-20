@@ -1,0 +1,49 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "./assets/images/top_collections/collec_1.png",
+      "name": "CryptoFunks",
+      "etcValue": "19,769.39",
+      "inc": 26.52,
+      "dec": 0,
+      "verified": true
+    },
+    {
+      "id": 2,
+      "image": "./assets/images/top_collections/collec_2.png",
+      "name": "CryptoFunks",
+      "etcValue": "19,769.39",
+      "inc": 0,
+      "dec": 26.52,
+      "verified": false
+    },
+    {
+      "id": 3,
+      "image": "./assets/images/top_collections/collec_3.png",
+      "name": "CryptoFunks",
+      "etcValue": "19,769.39",
+      "inc": 26.52,
+      "dec": 0,
+      "verified": false
+    },
+    {
+      "id": 4,
+      "image": "./assets/images/top_collections/collec_4.png",
+      "name": "CryptoFunks",
+      "etcValue": "19,769.39",
+      "inc": 0,
+      "dec": 26.52,
+      "verified": true
+    },
+    {
+      "id": 5,
+      "image": "./assets/images/top_collections/collec_5.png",
+      "name": "CryptoFunks",
+      "etcValue": "19,769.39",
+      "inc": 26.52,
+      "dec": 0,
+      "verified": false
+    }
+  ]
+}
