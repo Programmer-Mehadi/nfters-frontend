@@ -12,6 +12,7 @@ export default function UserBannerCard({ item }) {
       }}
       className="p-6 h-full flex flex-col justify-between relative rounded-3xl overflow-hidden min-h-[380px]"
     >
+      {/* top details */}
       <div className="relative z-10">
         <h2 className="text-white text-[28px] not-italic font-bold leading-[normal] tracking-[-1.4px]">
           {item?.name}
@@ -24,6 +25,7 @@ export default function UserBannerCard({ item }) {
         </div>
       </div>
 
+      {/* bottom details */}
       <div className="bg-[#FFFFFF33] py-3 px-6 rounded-xl flex flex-wrap justify-between gap-8 items-center relative z-10">
         <div>
           <p className="text-white text-xs not-italic font-medium leading-[normal]">
@@ -66,6 +68,7 @@ export default function UserBannerCard({ item }) {
           </p>
         </div>
       </div>
+      {/* overlay */}
       <div className="absolute top-0 left-0 w-full h-full bg-slate-800 opacity-20"></div>
     </div>
   )

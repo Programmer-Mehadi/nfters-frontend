@@ -13,17 +13,21 @@ export default function BannerSection() {
       <div className="max-w-[1200px] mx-auto p-5 py-16 grid lg:grid-cols-2 gap-16">
         {/* left */}
         <div className="py-8">
+          {/* heading */}
           <h2 className="text-black text-[40px] not-italic font-extrabold uppercase leading-[normal] tracking-[2px]">
             Discover, and collect <br /> Digital Art NFTs{" "}
           </h2>
+          {/* description */}
           <p className="text-[#565656] text-xl not-italic font-normal leading-[160%] mt-6">
             Digital marketplace for crypto collectibles and non-fungible tokens
             (NFTs). Buy, Sell, and discover exclusive digital assets.
           </p>
+          {/* button */}
           <LinkButton
             text="Explore Now"
             className="mt-10 xl:py-3 hover:bg-white hover:text-[#3D00B7] bg-[#3D00B7] text-[#fff] transition-all"
           />
+          {/* stats card container */}
           <div className="mt-8 flex flex-wrap gap-5">
             <div className="grid gap-0">
               <h2 className="text-black text-[40px] not-italic font-bold leading-[normal] tracking-[2px]">

@@ -3,8 +3,11 @@ import TextInput from "../elements/Inputs/TextInput"
 import Button from "../elements/Buttons/Button"
 
 export default function Footer() {
+  // email input
   const [email, setEmail] = React.useState("")
+  // email input element
   const emailRef = React.useRef()
+  // subScribeNow function for email input and email validation
   function subScribeNow() {
     if (email === "") {
       emailRef.current.style.border = "1px solid red"
@@ -18,7 +21,7 @@ export default function Footer() {
     <footer className="bg-white">
       <div className="max-w-[1200px] p-5 mx-auto">
         <div className="py-14 grid md:grid-cols-2 lg:grid-cols-3 gap-16">
-          {/* one */}
+          {/* one : logo and description */}
           <div className="flex flex-col gap-8">
             <h2 className="text-black text-2xl not-italic font-bold leading-[normal]">
               NFTERS
@@ -103,7 +106,7 @@ export default function Footer() {
               </svg>
             </div>
           </div>
-          {/* two */}
+          {/* two: Market Place and My Account details */}
           <div className="grid md:grid-cols-2 gap-20">
             <div className="flex flex-col gap-8">
               <p className="text-black text-lg not-italic font-bold leading-[normal] capitalize">
@@ -131,7 +134,7 @@ export default function Footer() {
               </ul>
             </div>
           </div>
-          {/* three */}
+          {/* three: subscribe to our mailing list  */}
           <div>
             <div className="flex flex-col gap-8">
               <p className="text-black text-lg not-italic font-bold leading-[normal] capitalize">
@@ -160,8 +163,13 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        {/* copyright  */}
         <p className="text-[#A4A4A4] text-sm not-italic font-normal leading-[160%] text-center py-4">
-          Copyright © 2022 Avi Yansah
+          Copyright © 2023{" "}
+          <span className="text-[#3D00B7] opacity-90 cursor-pointer">
+            {" "}
+            Muhamamd Mehadi
+          </span>
         </p>
       </div>
     </footer>

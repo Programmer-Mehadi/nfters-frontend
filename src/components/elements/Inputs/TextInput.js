@@ -9,7 +9,16 @@ export default function TextInput({
   setValueOnState = () => {},
   thisRef = null,
 }) {
-  console.log(thisRef)
+  // store value in state
+  /**
+   * type: for type of input
+   * placeholder: for placeholder
+   * className: for styling
+   * name: for name
+   * value: for value
+   * setValueOnState: for setting value in state
+   * thisRef: for ref of input
+   */
   const [inputValue, setInputValue] = useState(value)
   return (
     <input

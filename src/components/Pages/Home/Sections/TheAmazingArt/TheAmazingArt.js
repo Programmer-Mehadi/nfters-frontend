@@ -4,10 +4,13 @@ export default function TheAmazingArt() {
   return (
     <section className="bg-[#D9E0EC33]">
       <div className="max-w-[1200px] mx-auto p-5 py-20 grid grid-cols-1 lg:grid-cols-[3fr_7fr] gap-10 ">
+        {/* left heading */}
         <h2 className="text-black text-[28px] not-italic font-bold leading-[normal] uppercase max-w-[350px]">
           The amazing NFT art of the world here
         </h2>
+        {/* right details */}
         <div className="grid md:grid-cols-2 gap-10">
+          {/* Fast Transaction details */}
           <div className="grid grid-cols-[50px_1fr]">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -47,6 +50,7 @@ export default function TheAmazingArt() {
               </p>
             </div>
           </div>
+          {/* Growth Transaction details */}
           <div className="grid grid-cols-[50px_1fr]">
             <svg
               xmlns="http://www.w3.org/2000/svg"

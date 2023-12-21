@@ -6,6 +6,7 @@ export default function CollectionFeatured() {
   return (
     <section className={styles.collectionFeatured}>
       <div className={styles.container}>
+        {/* title */}
         <h2 className={styles.title}>Collection Featured NFTs</h2>
         {/*  collection featured list */}
         <div className={styles.collection__featured_list}>

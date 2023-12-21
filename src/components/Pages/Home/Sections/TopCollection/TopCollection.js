@@ -7,6 +7,7 @@ export default function TopCollection() {
   return (
     <section className="bg-white">
       <div className="max-w-[1200px] mx-auto p-5 py-[100px] grid md:grid-cols-2 lg:grid-cols-[1fr_1fr_1fr] gap-8">
+        {/* left */}
         <div className="h-full">
           <div className="grid gap-5">
             <img
@@ -69,6 +70,7 @@ export default function TopCollection() {
             </div>
           </div>
         </div>
+        {/* middle */}
         <div className="grid gap-10 ">
           {userList?.map((item, index) => (
             <div key={index} className="w-full grid md:grid-cols-2 gap-5">
@@ -123,13 +125,16 @@ export default function TopCollection() {
             </div>
           ))}
         </div>
+        {/* right */}
         <div className="lg:border-l lg:border-[#ECECEC] lg:pl-8">
+          {/* heading */}
           <h2 className="text-black text-xl not-italic font-bold leading-[normal]">
             Top Collections over{" "}
           </h2>
           <p className="text-[#3D00B7] text-lg not-italic font-bold leading-[normal] pt-2">
             Last 7 days
           </p>
+          {/* top collections over list */}
           <div className="mt-3">
             {topCollectionsOverList?.data?.map((item, index) => (
               <div

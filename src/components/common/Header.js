@@ -3,14 +3,17 @@ import TextInputWithSearch from "../elements/Inputs/TextInputWithSearch"
 import LinkButton from "../elements/Buttons/LinkButton"
 
 export default function Header() {
+  // mobile dropdown menu show / hide
   const [isOpen, setIsOpen] = React.useState(false)
 
+  // toggle mobile menu
   const toggle = () => setIsOpen(!isOpen)
 
   return (
     <header className="top_header">
       <div className="container">
-        <h1 className="logo">NFters</h1>
+        {/* logo */}
+        <h1 className="logo">NFTERS</h1>
         <div className="nav">
           {/* navbar will be here */}
           <ul className="navbar">
@@ -50,6 +53,7 @@ export default function Header() {
             </div>
           </div>
         )}
+        {/* hamburger */}
         <div className="hamburger">
           <svg
             onClick={toggle}

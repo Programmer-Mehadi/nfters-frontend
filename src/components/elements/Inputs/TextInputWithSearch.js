@@ -4,8 +4,13 @@ export default function TextInputWithSearch({
   inputClassName = "",
   searchClassName = "",
 }) {
+  /**
+   * inputClassName: for styling the input
+   * searchClassName: for styling the search icon
+   */
   return (
     <div className={`relative top-0 left-0`}>
+      {/* input field */}
       <input
         className={twMerge(
           `bg-white border-2 border-[#efefef] rounded-[100px] py-[10px] px-5 w-full max-w-[300px] placeholder:text-[#C0C0C0] text-base font-medium pr-12 ${inputClassName}`
@@ -13,6 +18,7 @@ export default function TextInputWithSearch({
         type="text"
         placeholder="Search"
       />
+      {/* search icon */}
       <svg
         className={twMerge(
           `absolute top-1/2 right-5 -translate-y-1/2 cursor-pointer ${searchClassName}`

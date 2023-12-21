@@ -4,6 +4,7 @@ import React from "react"
 export default function CollectionFeaturedCard({ item }) {
   return (
     <div>
+      {/* images container */}
       <div className="grid grid-cols-[2.5fr_1fr] gap-3">
         <img src={item.images[0]} className="w-full h-full" alt="" />
         <div className="grid gap-3">
@@ -12,12 +13,14 @@ export default function CollectionFeaturedCard({ item }) {
           <img src={item.images[3]} className="w-full h-full" alt="" />
         </div>
       </div>
-      {/*  */}
+      {/* details */}
       <div className="mt-8 flex flex-wrap justify-between gap-10 gap-y-6 items-end">
         <div>
+          {/* title */}
           <h2 className="text-black text-lg md:text-xl not-italic font-bold leading-[normal]">
-            Amazing Collection
+            {item.name}
           </h2>
+          {/* author details */}
           <div className="mt-3 flex items-center gap-2">
             <img src={item.author.img} className="w-7 h-7" alt="" />
             <h4 className="text-black text-sm not-italic font-medium leading-[normal]">
@@ -25,6 +28,7 @@ export default function CollectionFeaturedCard({ item }) {
             </h4>
           </div>
         </div>
+        {/* total items */}
         <div>
           <p className="text-[#2639ED] text-[11.001px] not-italic font-bold leading-[normal] py-[10px] px-5 border border-[#2639ED] rounded-[60px]">
             Total 54 Items

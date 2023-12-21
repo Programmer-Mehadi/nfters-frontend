@@ -4,14 +4,19 @@ import discoverMoreData from "@/assets/data/discover-more.json"
 import DiscoverMoreCard from "./DiscoverMoreCard"
 import LinkButton from "@/components/elements/Buttons/LinkButton"
 export default function DiscoverMoreNFTs() {
+  // set state for active categories
   const [activeCategories, setActiveCategories] = React.useState(1)
+  // set state for discover more data list
   const [discoverMoreDataList, setDiscoverMoreDataList] = React.useState([])
 
+  // set state for discover more data
   useEffect(() => {
+    // set discover more data list for all
     if (activeCategories === 1) {
       setDiscoverMoreDataList(discoverMoreData?.data)
       return
     }
+    // set discover more data list and filter data
     setDiscoverMoreDataList(
       discoverMoreData?.data?.filter(
         (item) => item.categoryId === activeCategories
@@ -21,6 +26,7 @@ export default function DiscoverMoreNFTs() {
   return (
     <section className="bg-[#D9E0EC33] p-5">
       <div className="max-w-[1200px] mx-auto py-14">
+        {/* heading */}
         <h2 className="text-black text-[34px] not-italic font-bold leading-[normal]">
           Discover more NFTs
         </h2>
@@ -70,12 +76,13 @@ export default function DiscoverMoreNFTs() {
             </div>
           </div>
         </div>
-        {/*  */}
+        {/* categories list */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:gap-10 mt-10">
           {discoverMoreDataList?.map((item, index) => (
             <DiscoverMoreCard key={index} item={item} />
           ))}
         </div>
+        {/* more nfts button */}
         <div className="flex justify-center mt-10">
           <LinkButton
             text="More NFTs"
