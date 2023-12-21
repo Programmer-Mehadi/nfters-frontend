@@ -11,14 +11,12 @@ import BannerSection from "./Sections/Banner/BannerSection"
 export default function HomePage() {
   return (
     <section>
-      <Header />
       <BannerSection />
       <TheAmazingArt />
       <TopCollection />
       <CollectionFeatured />
       <CreateAndSell />
       <DiscoverMoreNFTs />
-      <Footer />
     </section>
   )
 }

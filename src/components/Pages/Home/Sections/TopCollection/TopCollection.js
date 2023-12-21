@@ -133,7 +133,11 @@ export default function TopCollection() {
           <div className="mt-3">
             {topCollectionsOverList?.data?.map((item, index) => (
               <div
-                className="flex justify-between items-center gap-5 py-4 border-b border-[#F0F0F0]"
+                className={`flex justify-between items-center gap-5 py-4 ${
+                  topCollectionsOverList.data.length - 1 === index
+                    ? ""
+                    : "border-b border-[#F0F0F0]"
+                } `}
                 key={index}
               >
                 <p className="text-black text-center text-2xl not-italic font-bold leading-[103%] tracking-[-0.6px]">

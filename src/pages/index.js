@@ -1,4 +1,7 @@
+import MainLayout from "@/components/Layout/MainLayout"
 import HomePage from "@/components/Pages/Home/HomePage"
+import Footer from "@/components/common/Footer"
+import Header from "@/components/common/Header"
 
 export default function Home() {
   return (
@@ -8,4 +11,8 @@ export default function Home() {
       </main>
     </>
   )
+}
+
+Home.getLayout = function getLayout(page) {
+  return <MainLayout>{page}</MainLayout>
 }
